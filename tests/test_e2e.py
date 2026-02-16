@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-BASE_URL = "http://localhost:1001"
+BASE_URL = "http://localhost:5000"
 
 
 def test_home_page_loads():
