@@ -80,7 +80,7 @@ jobs:
       with:
         host: ${{ secrets.TIMEWEB_HOST }}
         username: ${{ secrets.TIMEWEB_USER }}
-        password: ${{ secrets.TIMEWEB_SSH_KEY }}
+        password: ${{ secrets.TIMEWEB_PASSWORD }}
         source: "docker-compose.prod.yml"
         target: "/opt/library-app"
         overwrite: true
