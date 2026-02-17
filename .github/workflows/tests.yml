@@ -92,6 +92,7 @@ jobs:
         username: ${{ secrets.TIMEWEB_USER }}
         password: ${{ secrets.TIMEWEB_PASSWORD }}
         script: |
+          sudo chown root:root /opt/library-app/docker-compose.prod.yml || true
           echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
           cd /opt/library-app
           docker-compose -f docker-compose.prod.yml pull
