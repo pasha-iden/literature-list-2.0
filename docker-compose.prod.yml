@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: ghcr.io/pasha-iden/literature-list-2.0:latest
+    ports:
+      - "5000:5000"
+    restart: always
+    container_name: library-app-prod
