@@ -20,7 +20,6 @@ def index():
     # for record in books:
     #     print(record)
 
-
     return render_template("library.html", bookslistprint=books)
 
 
