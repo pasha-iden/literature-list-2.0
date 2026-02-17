@@ -16,10 +16,10 @@ def index():
     books = parser(getter(TSV_URL))
 
     # Выводим ВСЕ данные
-    """
-    for record in books:
-        print(record)
-    """
+
+    # for record in books:
+    #     print(record)
+
 
     return render_template("library.html", bookslistprint=books)
 
