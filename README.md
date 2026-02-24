@@ -74,7 +74,7 @@ pytest + coverage
 
 ### Стек и архитектура
 Добавленный стек: Google Sheets TSV-экспорт, Pytest, Flake8, Black
-Архитектура: Docker, Docker Compose, GitHub Actions, GitHub Secrets, GitHub Container Registry, Linux
+Архитектура: Docker, Docker Compose, GitHub Actions, GitHub Secrets, GitHub Container Registry, Linux  
 Унаследованный стек: Python, Flask, HTML, CSS, Jinja2
 
 ### Статистика
